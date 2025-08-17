@@ -4,12 +4,13 @@ public class ComputerArea {
     public static void main(String[] args) {
         System.out.println();
 
-        double base = 4.0;
+       //Making the variables using double for calculating the decimals number
+          double base = 4.0;
         double height = 6.0;
-        final double PI = 3.14;  // constant
+        final double PI = 3.14;  // constant Final (makes variable fix point or unchangeable)
         double radius = 8.0;
 
-        // Compute areas
+        // Calculation on areas using the area format working
         double areaOfSquare = base * base;
         double areaOfTriangle = 0.5 * base * height;
         double areaOfCircle = PI * radius * radius;
@@ -18,8 +19,8 @@ public class ComputerArea {
         System.out.print("The area of square is " + areaOfSquare + "\n" +
                          "The area of triangle is " + areaOfTriangle + "\n" +
                          "The area of circle is " + areaOfCircle);
-
         System.out.println();
     }
 }
+
 
