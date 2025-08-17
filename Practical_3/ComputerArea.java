@@ -4,15 +4,22 @@ public class ComputerArea {
     public static void main(String[] args) {
         System.out.println();
 
-        double a = 4.0, b = 6.0, p = 3.14, r = 8.0; //
-        double s = a * a;
-        double t = 0.5 * a * b;
-        double i = p * r * r;
+        double base = 4.0;
+        double height = 6.0;
+        final double PI = 3.14;  // constant
+        double radius = 8.0;
 
-        System.out.println("The area of square is "+s);
-        System.out.println("The area of triangle is "+t);
-        System.out.println("The area of circle is "+i);
+        // Compute areas
+        double areaOfSquare = base * base;
+        double areaOfTriangle = 0.5 * base * height;
+        double areaOfCircle = PI * radius * radius;
+
+        // Print result using only ONE System.out.print
+        System.out.print("The area of square is " + areaOfSquare + "\n" +
+                         "The area of triangle is " + areaOfTriangle + "\n" +
+                         "The area of circle is " + areaOfCircle);
 
         System.out.println();
     }
 }
+
